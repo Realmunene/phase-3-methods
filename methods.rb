@@ -6,8 +6,8 @@ end
 def greet name
 puts "Hello, #{name}!"
 end
-greet("Naureen!")
-greet("Jimmy!")
+greet("Naureen")
+greet("Jimmy")
 def greet_with_default (name="programmer")
     puts "Hello, #{name}!"
 end
@@ -18,9 +18,6 @@ end
 sum = add(1,2)
 
 def halve number
-    if (typeof number !== "number")
-        return null;
-    end
 return number/2
 end
 halve(4)
