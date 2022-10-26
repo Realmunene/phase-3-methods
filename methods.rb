@@ -15,9 +15,12 @@ end
 def add (num1, num2)
     return num1 + num2
 end
-sum = add(1,2)
+puts sum = add(1,2)
 
 def halve number
-return number/2
+    if number.class != Integer
+        return nil
+    end
+    return number/2
 end
-halve(4)
+puts halve("k")
